@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4fe0be7d-9449-48d6-bfc2-b4b53688179c" name="mageuni" url="https://salzano.testsrv.mageuni.cloud/">
+        <fileTransfer rootFolder="/home/mguni_zvohhihkee/salzano.shop" accessType="SFTP" host="144.202.42.16" port="2801" sshConfigId="79c749e1-b188-4d1f-a51d-84ba8ed3ff94" sshConfig="mguni_zvohhihkee@144.202.42.16:2801 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
