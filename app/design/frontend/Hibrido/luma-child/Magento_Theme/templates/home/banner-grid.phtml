@@ -1,0 +1,71 @@
+<?php
+/**
+ * @var \Magento\Framework\View\Element\Template $block
+ * @var \Magento\Framework\Escaper $escaper
+ */
+?>
+
+<div class="row contained">
+    <h2>Conheça nossos diferenciais</h2>
+    <div class="banner-grid">
+        <!-- Card 1 -->
+        <div class="banner-grid-item">
+            <img
+                src="<?= $escaper->escapeUrl($block->getViewFileUrl('images/home/banner-grid/banner-grid01.png')) ?>"
+                alt="<?= $escaper->escapeHtmlAttr(__('Item 1')) ?>" />
+            <div class="card-overlay">
+                <h2 class="banner-title"><?= $escaper->escapeHtml(__('Mega Elástico')) ?></h2>
+                <p class="banner-description"><?= $escaper->escapeHtml(__('Desenha as curvas do corpo.')) ?></p>
+                <a href="#" class="shop-button"><?= $escaper->escapeHtml(__('Shop Now')) ?></a>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="banner-grid-item">
+            <img
+                src="<?= $escaper->escapeUrl($block->getViewFileUrl('images/home/banner-grid/banner-grid02.png')) ?>"
+                alt="<?= $escaper->escapeHtmlAttr(__('Item 2')) ?>" />
+            <div class="card-overlay">
+                <h2 class="banner-title"><?= $escaper->escapeHtml(__('Térmica')) ?></h2>
+                <p class="banner-description"><?= $escaper->escapeHtml(__('Não importa a clima, você impedecável.')) ?></p>
+                <a href="#" class="shop-button"><?= $escaper->escapeHtml(__('Shop Now')) ?></a>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="banner-grid-item">
+            <img
+                src="<?= $escaper->escapeUrl($block->getViewFileUrl('images/home/banner-grid/banner-grid03.png')) ?>"
+                alt="<?= $escaper->escapeHtmlAttr(__('Item 3')) ?>" />
+            <div class="card-overlay">
+                <h2 class="banner-title"><?= $escaper->escapeHtml(__('Comprimentos')) ?></h2>
+                <p class="banner-description"><?= $escaper->escapeHtml(__('O tamanho certo sem ajustes.')) ?></p>
+                <a href="#" class="shop-button"><?= $escaper->escapeHtml(__('Shop Now')) ?></a>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="banner-grid-item">
+            <img
+                src="<?= $escaper->escapeUrl($block->getViewFileUrl('images/home/banner-grid/banner-grid04.png')) ?>"
+                alt="<?= $escaper->escapeHtmlAttr(__('Item 4')) ?>" />
+            <div class="card-overlay">
+                <h2 class="banner-title"><?= $escaper->escapeHtml(__('Não Marca')) ?></h2>
+                <p class="banner-description"><?= $escaper->escapeHtml(__('as imperfeições da pele.')) ?></p>
+                <a href="#" class="shop-button"><?= $escaper->escapeHtml(__('Shop Now')) ?></a>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="banner-grid-item">
+            <img
+                src="<?= $escaper->escapeUrl($block->getViewFileUrl('images/home/banner-grid/banner-grid05.png')) ?>"
+                alt="<?= $escaper->escapeHtmlAttr(__('Item 5')) ?>" />
+            <div class="card-overlay">
+                <h2 class="banner-title"><?= $escaper->escapeHtml(__('Preto Intenso')) ?></h2>
+                <p class="banner-description"><?= $escaper->escapeHtml(__('A melhor aposta para o seu closet.' )) ?></p>
+                <a href="#" class="shop-button"><?= $escaper->escapeHtml(__('Shop Now' )) ?></a>
+            </div>
+        </div>
+    </div>
+</div>

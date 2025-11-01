@@ -1,0 +1,41 @@
+<?php
+/**
+ * @var \Magento\Framework\View\Element\Template $block
+ * @var \Magento\Framework\Escaper $escaper
+ */
+?>
+
+<div class="homepage-banner-slider row desk slick-slider-full" data-mage-init='{"Magento_Theme/js/fullbanner-slickslider":{}}'>
+    <a href="<?= $escaper->escapeUrl('/') ?>">
+        <img class="banner-desk"
+            src="<?= $escaper->escapeUrl($block->getViewFileUrl('images/home/banner-slider/banner01-desk.png')) ?>"
+            alt="<?= $escaper->escapeHtmlAttr(__('Banner principal')) ?>" />
+    </a>
+    <a href="<?= $escaper->escapeUrl('/') ?>">
+        <img class="banner-desk"
+             src="<?= $escaper->escapeUrl($block->getViewFileUrl('images/home/banner-slider/banner02-desk.png')) ?>"
+             alt="<?= $escaper->escapeHtmlAttr(__('Banner principal')) ?>" />
+    </a>
+    <a href="<?= $escaper->escapeUrl('/') ?>">
+        <img class="banner-desk"
+             src="<?= $escaper->escapeUrl($block->getViewFileUrl('images/home/banner-slider/banner03-desk.png')) ?>"
+             alt="<?= $escaper->escapeHtmlAttr(__('Banner principal')) ?>" />
+    </a>
+</div>
+<div class="homepage-banner-slider row mobile slick-slider-full" data-mage-init='{"Magento_Theme/js/fullbanner-slickslider":{}}'>
+    <a href="<?= $escaper->escapeUrl('/') ?>">
+        <img class="banner-mobile"
+             src="<?= $escaper->escapeUrl($block->getViewFileUrl('images/home/banner-slider/banner01-mob.png')) ?>"
+             alt="<?= $escaper->escapeHtmlAttr(__('Banner principal')) ?>" />
+    </a>
+    <a href="<?= $escaper->escapeUrl('/') ?>">
+        <img class="banner-mobile"
+             src="<?= $escaper->escapeUrl($block->getViewFileUrl('images/home/banner-slider/banner02-mob.png')) ?>"
+             alt="<?= $escaper->escapeHtmlAttr(__('Banner principal')) ?>" />
+    </a>
+    <a href="<?= $escaper->escapeUrl('/') ?>">
+        <img class="banner-mobile"
+             src="<?= $escaper->escapeUrl($block->getViewFileUrl('images/home/banner-slider/banner03-mob.png')) ?>"
+             alt="<?= $escaper->escapeHtmlAttr(__('Banner principal')) ?>" />
+    </a>
+</div>

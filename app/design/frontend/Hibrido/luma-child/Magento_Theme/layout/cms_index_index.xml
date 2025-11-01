@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="cms_page" remove="true"/>
+        <referenceContainer name="main.content" htmlTag="main" htmlClass="page-main-full-width" />
+        <referenceContainer name="content">
+            <block name="homepage.banner.slider" template="Magento_Theme::home/banner-slider.phtml" before="-"/>
+            <block name="homepage.how.works" template="Magento_Theme::home/how-works.phtml" after="homepage.banner.slider"/>
+            <block name="product.carousel" class="Magento\Catalog\Block\Product\ListProduct" template="Magento_Theme::home/product-carousel.phtml" after="homepage.how.works" >
+                <arguments>
+                    <argument name="product_collection_view_model" xsi:type="object">Hibrido\Theme\ViewModel\ProductSlider</argument>
+                </arguments>
+            </block>
+            <block name="banner.grid" template="Magento_Theme::home/banner-grid.phtml" after="product.carousel"/>
+        </referenceContainer>
+    </body>
+</page>

@@ -1,0 +1,40 @@
+<?php
+/**
+ * @var \Magento\Framework\View\Element\Template $block
+ * @var \Magento\Framework\Escaper $escaper
+ */
+?>
+
+<div class="how-works row contained">
+    <h2><?= $escaper->escapeHtml(__('Como funciona')) ?></h2>
+    <div class="how-works-items">
+        <div class="how-works-item">
+            <img
+                src="<?= $escaper->escapeUrl($block->getViewFileUrl('images/home/icons/iconclothes1.png')) ?>"
+                alt="<?= $escaper->escapeHtmlAttr(__('Item 1')) ?>" />
+            <h3><?= $escaper->escapeHtml(__('Descubra Seu Estilo')) ?></h3>
+            <p><?= $escaper->escapeHtml(__('Explore nosso catálogo com peças selecionadas que seguem as últimas tendências e a curadoria do nosso time.')) ?></p>
+        </div>
+        <div class="how-works-item">
+            <img
+                src="<?= $escaper->escapeUrl($block->getViewFileUrl('images/home/icons/iconclothes2.png')) ?>"
+                alt="<?= $escaper->escapeHtmlAttr(__('Item 2')) ?>" />
+            <h3><?= $escaper->escapeHtml(__('Crie Seu Look Perfeito')) ?></h3>
+            <p><?= $escaper->escapeHtml(__('Adicione suas peças favoritas ao carrinho. Aproveite as nossas sugestões de coordenação para montar um visual completo.')) ?></p>
+        </div>
+        <div class="how-works-item">
+            <img
+                src="<?= $escaper->escapeUrl($block->getViewFileUrl('images/home/icons/iconclothes3.png')) ?>"
+                alt="<?= $escaper->escapeHtmlAttr(__('Item 3')) ?>" />
+            <h3><?= $escaper->escapeHtml(__('Receba Onde Estiver')) ?></h3>
+            <p><?= $escaper->escapeHtml(__('Finalize o pedido e escolha o frete. Nós cuidamos da entrega rápida e segura para que você experimente seu look o quanto antes')) ?></p>
+        </div>
+        <div class="how-works-item">
+            <img
+                src="<?= $escaper->escapeUrl($block->getViewFileUrl('images/home/icons/iconclothes4.png')) ?>"
+                alt="<?= $escaper->escapeHtmlAttr(__('Item 4')) ?>" />
+            <h3><?= $escaper->escapeHtml(__('Vista-se e Arrase!')) ?></h3>
+            <p><?= $escaper->escapeHtml(__('É só tirar da embalagem. Sem complicação! Vista-se, sinta a qualidade e comece o dia com a confiança de um novo look.')) ?></p>
+        </div>
+    </div>
+</div>
