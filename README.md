@@ -23,13 +23,3 @@ Para exibir a **vitrine de produtos na página inicial**, foi criado um **módul
 ## 🚀 Como testar
 1. Instalar o tema e o módulo
 2. Ativar o tema **Luma Child** em **Content > Design > Configuration**
-
-### Ambiente com o tema rodando
-Para maior comodidade, instalei o tema e o módulo em um ambiente de testes.
-Está disponível em:
-- Frontstore: [https://salzano.testsrv.mageuni.cloud/](https://salzano.testsrv.mageuni.cloud/)
-- Admin: [https://salzano.testsrv.mageuni.cloud/mguadm](https://salzano.testsrv.mageuni.cloud/mguadm)
-  - usuário: hibrido
-  - senha: PM4zPtO1q87x
-
-**Observação**: O ambiente em questão é utilizado apenas para estudos e pode apresentar instabilidades.
